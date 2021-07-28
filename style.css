@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.navbar-wrap {
+    padding-bottom: 5px;
+}
+
+.small-flag {
+    max-width: 75px;
+}
