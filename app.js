@@ -16,9 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const func = (searchVal) => {
         let stored = JSON.parse(localStorage.getItem('countries'));
 
-        let searchResult = stored.filter(country => {
-            return country.name.toLowerCase().includes(searchVal.toLowerCase())
-        });
+        let searchResult = stored.filter(country => country.name.toLowerCase().includes(searchVal.toLowerCase()));
         renderTable(searchResult);
     };
 
